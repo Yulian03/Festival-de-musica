@@ -1,0 +1,30 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": " ",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yulian03/Festival-de-musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Jullian Paola Villalobos Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yulian03/Festival-de-musica/issues"
+  },
+  "homepage": "https://github.com/Yulian03/Festival-de-musica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.59.3"
+  }
+}
